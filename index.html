@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Clipboard landing page</title>
 </head>
 <body>
 
   <header>
+    <img src="/images/logo.svg" alt="the company logo" width="50" height="auto">
     <h2>A history of everything you copy</h2>
     <p>Clipboard allows you to track and organize everything you 
       copy. Instantly access your clipboard on all your devices.</p>
@@ -28,7 +33,7 @@
     </div>
     
     <section class="section-1">
-      <img src="/images/image-computer.png" alt="A picture of a computer">
+      <img src="/images/image-computer.png" alt="A picture of a computer" width="50" height="auto">
       <div class="info-text">
         <h4>Quick Search</h4>
         <p>Easily search your snippets by content, category, web address, application, and more.</p>
@@ -45,7 +50,7 @@
       <h3>Access Clipboard anywhere </h3>
       <p> Whether you’re on the go, or at your computer, you can access all your Clipboard 
         snippets in a few simple clicks. </p>
-      <img src="/images/image-devices.png" alt="A picture of an Iphone and an Ipad">
+      <img src="/images/image-devices.png" alt="A picture of an Iphone and an Ipad" width="50" height="auto">
     </section>
 
     <section class="section-3">
@@ -53,33 +58,36 @@
       <p>We’ve got the tools to boost your productivity.</p>
       
       <ul>
-        <li>
-          <img src="/images/icon-blacklist.svg" alt="an image depicting blacklist">
-          <h4>Create blacklists</h4>
-          <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-        </li>
-        
-        <li>
-          <img src="/images/icon-text.svg" alt="an image depicting text insertion">
-          <h4>Plain text snippets</h4>
-          <p>Remove unwanted formatting from copied text for a consistent look.</p>
-        </li>
+        <span>
+          <li>
+            <img src="/images/icon-blacklist.svg" alt="an image depicting blacklist">
+            <h4>Create blacklists</h4>
+            <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+          </li>
+          
+          <li>
+            <img src="/images/icon-text.svg" alt="an image depicting text insertion" width="50" height="auto">
+            <h4>Plain text snippets</h4>
+            <p>Remove unwanted formatting from copied text for a consistent look.</p>
+          </li>
 
-        <li>
-        <img src="/images/icon-preview.svg" alt="an image depicting a preview icon">
-        <h4>Sneak preview</h4>
-        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
-        </li>
+          <li>
+          <img src="/images/icon-preview.svg" alt="an image depicting a preview icon" width = "50" height="auto">
+          <h4>Sneak preview</h4>
+          <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+          </li>
+        </span>  
+        <span>
+          <li><img src="/images/logo-google.png" alt="a google logo" width = "50" height="auto" class="companies"></li>
+          
+          <li><img src="/images/logo-ibm.png" alt="an IBM company logo" width = "50" height="auto" class="companies"></li>
 
-        <li><img src="/images/logo-google.png" alt="a google logo"></li>
-        
-        <li><img src="/images/logo-ibm.png" alt="an IBM company logo"></li>
+          <li> <img src="/images/logo-microsoft.png" alt="a microsoft logo" width = "50" height="auto" class="companies"></li>
 
-        <li> <img src="/images/logo-microsoft.png" alt="a microsoft logo"></li>
-
-        <li> <img src="/images/logo-hp.png" alt="the Hawlett Packard company logo"></li>
-        
-        <li> <img src="/images/logo-vector-graphics.png" alt="A vector graphics logo"></li>
+          <li> <img src="/images/logo-hp.png" alt="the Hawlett Packard company logo" width = "50" height="auto" class="companies"></li>
+          
+          <li> <img src="/images/logo-vector-graphics.png" alt="A vector graphics logo" width = "50" height="auto" class="companies"></li>
+        </span>
       </ul>
     </section>
 
@@ -95,18 +103,24 @@
   
   
   <footer>
-    <img src="/images/logo.svg" alt="Clipboard company logo">
+    <img src="/images/logo.svg" alt="Clipboard company logo" width="70" height="auto">
     <ul class="footer-nav">
-      <li>FAQs</li>
-      <li>Contact Us</li>
-      <li>Privacy Policy</li>
-      <li>Press Kit</li>
-      <li>Install Guide</li>
+      <span>
+        <li>FAQs</li>
+        <li>Contact Us</li>
+      </span>
+      <span>
+        <li>Privacy Policy</li>
+        <li>Press Kit</li>
+      </span>
+      <span>
+        <li>Install Guide</li>
+      </span>
     </ul>
     <ul class="socials">
-      <li><img src="/images/icon-facebook.svg" alt="The facebook company logo"></li>
-      <li><img src="/images/icon-twitter.svg" alt="The twitter company logo"></li>
-      <li><img src="/images/icon-instagram.svg" alt="The instagram company logo"></li>
+      <li><img src="/images/icon-facebook.svg" alt="The facebook company logo" width="10" height="auto"></li>
+      <li><img src="/images/icon-twitter.svg" alt="The twitter company logo" width="10" height="auto"></li>
+      <li><img src="/images/icon-instagram.svg" alt="The instagram company logo" width="10" height="auto"></li>
     </ul>
   </footer>
 </body>
