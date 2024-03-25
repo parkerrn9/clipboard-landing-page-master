@@ -1,0 +1,28 @@
+:root {
+
+/* ### Primary */
+
+--button1-bgCL: hsl(171, 66%, 44%);
+--button2-bgCL: hsl(233, 100%, 69%);
+
+/* ### Neutral */
+
+--header-CL: hsl(210, 10%, 33%);
+--p-CL: hsl(201, 11%, 66%);
+
+/* ## Typography */
+
+/* ### Body Copy */
+
+--body-FS: 18px
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 375px;
+}
