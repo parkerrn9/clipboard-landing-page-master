@@ -57,18 +57,49 @@ button {
 
 button {
     background-color: var(--button1-bgCL);
-    border: 0;
     font: inherit;
     font-size: 0.9rem;
     color: white;
     font-weight: 500;
-    box-shadow: -2px 3px 1px var(--button1-bgCL) ,1px 5px 0px var(--button1-bgCL);
+    border: 0;
 }
+
+p + button {
+    background-color: var(--button1-bgCL);
+    box-shadow: 0px 9px 24px hsl(171, 66%, 44% , 0.2);
+    border-bottom: 3px outset var(--button1-bgCL);
+}
+
 
 button:last-child {
     background-color: var(--button2-bgCL);
-    box-shadow: 1px 2px 1px var(--button2-bgCL);
+    box-shadow: 0px 7px 19px hsl(233, 100%, 69%, 0.3);
+    border-bottom: 3px outset var(--button2-bgCL);
     margin-bottom: 10em;
+}
+
+/* hover states */
+p + button:hover {
+    background-color: hsl(171, 66%, 44% , 0.8);
+    cursor: pointer;
+}
+
+button:last-child:hover {
+    box-shadow: hsl(233, 100%, 69%, 1);
+    cursor: pointer;
+}
+    /* adding an overlay */
+.socials li:hover {
+    /* content: "  ";
+    color:  var(--button1-bgCL);
+    position: relative;
+    cursor: pointer; */
+
+}
+
+.footer-nav li:hover {
+    color: var(--button1-bgCL);
+    cursor: pointer;
 }
 
 main > div p:last-child {
@@ -145,6 +176,7 @@ footer > img {
 .footer-nav li {
     margin: 1.5em 0;
 }
+
 
 .socials {
     display: flex;
