@@ -12,8 +12,6 @@
 
 /* ## Typography */
 
-/* ### Body Copy */
-
 --body-FS: 18px
 
 }
@@ -204,20 +202,32 @@ footer > img {
     .section-2 p {
         margin-inline: 21em;
     }
+    .section-2 h3 {
+        padding-top: 6em;
+          
+    }
+
+    .section-3 > p {
+        margin-bottom: 3em;
+      }
     
     .section-3 ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .section-3 ul li {
-        
-        width: 22em;
+        width: 20em;
     }
-    .section-3 span:first-child li{
-        display: inline-block;
+    .section-3 span:first-child{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    .section-3 span:first-child li {
         margin-right: 2em;
+        width: 22em;
     }
     .section-3 span:last-child li{
         display: inline-block;
@@ -237,7 +247,4 @@ footer > img {
     .footer-nav span:nth-child(2) {
         margin-inline: 5em;
     }
-
-
-
 }
