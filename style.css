@@ -90,11 +90,15 @@ button:last-child:hover {
 }
     /* adding an overlay */
 .socials li:hover {
-    /* content: "  ";
-    color:  var(--button1-bgCL);
-    position: relative;
-    cursor: pointer; */
+    filter: invert(53%) sepia(71%) saturate(450%) hue-rotate(122deg) brightness(101%) contrast(85%);
+    cursor: pointer; 
+    animation: first 0.3s ease-in forwards 1;
+}
 
+@keyframes first {
+    100% {
+        transform: rotateY(360deg);
+    }
 }
 
 .footer-nav li:hover {
@@ -191,6 +195,7 @@ footer > img {
 
 .socials img {
     width: 23px;
+    height: auto;
 }
 .socials li:nth-child(2) {
     margin-inline: 2em;
